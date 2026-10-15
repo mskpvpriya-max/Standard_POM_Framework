@@ -5,18 +5,16 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
-  workflow_dispatch: # Enables a manual "Run workflow" button in GitHub
+  workflow_dispatch:
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Download your code into the cloud machine
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Step 2: Install Java 17
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -24,13 +22,11 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      # Step 3: Run the tests headlessly (no physical monitor on Linux)
       - name: Run Selenium Tests via Maven
         env:
           HEADLESS: "true"
-        run: mvn clean test -DsuiteXmlFile=testng.xml
+        run: mvn clean test
 
-      # Step 4: Save the execution report even if tests fail
       - name: Archive Test Reports
         if: always()
         uses: actions/upload-artifact@v4
