@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-15T11:48:02 IST" name="Amazon Automation Suite" finished-at="2026-10-15T11:48:36 IST" duration-ms="33960">
+  <suite started-at="2026-10-16T05:14:55 IST" name="Amazon Automation Suite" finished-at="2026-10-16T05:15:27 IST" duration-ms="31986">
     <groups>
     </groups>
-    <test started-at="2026-10-15T11:48:02 IST" name="Search Module Tests" finished-at="2026-10-15T11:48:36 IST" duration-ms="33960">
+    <test started-at="2026-10-16T05:14:55 IST" name="Search Module Tests" finished-at="2026-10-16T05:15:27 IST" duration-ms="31986">
       <class name="test.AmazonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AmazonTest@185a6e9]" started-at="2026-10-15T11:48:02 IST" name="setUp" finished-at="2026-10-15T11:48:15 IST" duration-ms="13854" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AmazonTest@702657cc]" started-at="2026-10-16T05:14:55 IST" name="setUp" finished-at="2026-10-16T05:15:06 IST" duration-ms="11792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchTest()[pri:0, instance:test.AmazonTest@185a6e9]" started-at="2026-10-15T11:48:15 IST" name="searchTest" finished-at="2026-10-15T11:48:35 IST" duration-ms="19380" status="FAIL">
+        <test-method signature="searchTest()[pri:0, instance:test.AmazonTest@702657cc]" started-at="2026-10-16T05:15:06 IST" name="searchTest" finished-at="2026-10-16T05:15:26 IST" duration-ms="19541" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//h2//a)[1]"}
-  (Session info: chrome=155.0.8059.40)
+  (Session info: chrome=155.0.8059.84)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f8640a02ca89aefd0494151a27f5d508, findElement {using=xpath, value=(//h2//a)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: C:\Users\shira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64043}, goog:processID: 12324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64043/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f8640a02ca89aefd0494151a27f5d508]]>
+Command: [bcb40a3f9f2c49e2d446cde02dbc2767, findElement {value=(//h2//a)[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61739}, goog:processID: 6024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61739/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bcb40a3f9f2c49e2d446cde02dbc2767]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//h2//a)[1]"}
-  (Session info: chrome=155.0.8059.40)
+  (Session info: chrome=155.0.8059.84)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f8640a02ca89aefd0494151a27f5d508, findElement {using=xpath, value=(//h2//a)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: C:\Users\shira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64043}, goog:processID: 12324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64043/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f8640a02ca89aefd0494151a27f5d508
+Command: [bcb40a3f9f2c49e2d446cde02dbc2767, findElement {value=(//h2//a)[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61739}, goog:processID: 6024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61739/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bcb40a3f9f2c49e2d446cde02dbc2767
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pages.AmazonPage.clickFirstProduct(AmazonPage.java:28)
 at test.AmazonTest.searchTest(AmazonTest.java:24)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -82,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AmazonTest@185a6e9]" started-at="2026-10-15T11:48:35 IST" name="tearDown" finished-at="2026-10-15T11:48:36 IST" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AmazonTest@702657cc]" started-at="2026-10-16T05:15:26 IST" name="tearDown" finished-at="2026-10-16T05:15:27 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
